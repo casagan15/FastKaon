@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Kaon</title>
+    <link rel="icon" href="images.png" type="image/x-icon">
+    <link rel="stylesheet" href="/order.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    footer {
+        margin: 0px;
+        height: max-content;
+        background-color: black;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+</style>
+<body>
+    <header>
+        <h1>JOO-HUN & ROMICS RESTO</h1>
+        <p>- MENU -</p>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <form action="">
+                <input type="text" placeholder="name"><br>
+                <input type="number" placeholder="phone number"><br>
+                <input type="text" placeholder="address"><br>
+
+                <table>
+                    <tr>
+                        <td><label for="burger">Burger</label></td>
+                        <td><input id="burger" type="checkbox" invalid></td>
+                        <td><label for="burgerQuantity">How many?</label></td>
+                        <td><input id="burgerQuantity" type="number" min="1" max="10" value="1"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pizza">Pizza</label></td>
+                        <td><input id="pizza" type="checkbox"></td>
+                        <td><label for="pizzaQuantity">How many?</label></td>
+                        <td> <input id="pizzaQuantity" type="number" min="1" max="10" value="1"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="spagh">Spaghetti</label></td>
+                        <td><input id="spagh" type="checkbox"></td>
+                        <td><label for="spaghQuantity">How many?</label></td>
+                        <td><input id="spaghQuantity" type="number" min="1" max="10" value="1"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="chicken">Fried Chicken</label></td>
+                        <td><input id="chicken" type="checkbox"></td>
+                        <td><label for="chickenQuantity">How many?</label></td>
+                        <td><input id="chickenQuantity" type="number" min="1" max="10" value="1"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fries">French Fries</label></td>
+                        <td><input id="fries" type="checkbox"></td>
+                        <td><label for="friesQuantity">How many?</label></td>
+                        <td><input id="friesQuantity" type="number" min="1" max="10" value="1"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="icetea">Ice Tea</label></td>
+                        <td><input id="icetea" type="checkbox"></td>
+                        <td><label for="iceteaQuantity">How many?</label></td>
+                        <td><input id="iceteaQuantity" type="number" min="1" max="10" value="1"><br></td>
+                    </tr>
+
+                </table>
+                <pre>
+
+                </pre>
+                <div style="display: flex; justify-content:space-between; width: 300px; padding: 0px 50px;">
+                    <a id="order" class="btn order" href="/tyorder.html">Order</a>
+                    <br>
+                    <a class="btn home" href="/index.html">Back to Home</a>
+                </div>
+            </form>          
+        </div>
+    </main>
+    <footer>
+        <p>FAST KAON <br>
+            is your go-to for quick, delicious online food orders. Our mission is to satisfy your cravings fast, serving up tasty meals with convenience and a smile—because great food should never keep you waiting!</p>
+
+        <hr style="color: white;">
+
+        <p>Contact us:</p>
+        <p><i class="fa-brands fa-facebook"></i> FastKAON</p>
+        <p><i class="fa-solid fa-envelope"></i> johncasagan15@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +639927934939</p>
+    </footer>
+</body>
+</html>
